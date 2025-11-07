@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="retail camping summer wesite">
+    <meta name="author" content="Elikem Limted">
+    <meta name="keywords"  content="desk + website + standing + category">
+
+    <title>Standing Desks Ltd</title>
+
+    <link rel="icon" href="img/office.png" type="icon">
+
+    <!-- linking font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- linking swiperjs via cdnjs  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- google fonts import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <!-- google  fonts end. -->
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style/style2.css">
+
+    <!-- SweetAlert2 CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+
+
+
+    <!-- header section starts -->
+    <header class="header">
+        <a href="#" class="logo">
+            <!-- fas icon for a desk -->
+
+            <i class="fas fa-desktop" id="hike"></i> Standing Desk Ltd
+        </a>
+
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html" accesskey="h">Home</a>
+            <a href="riskingDesk.html" accesskey="R">Risking Desks</a>
+            <a href="contact.html" accesskey="C">Contact</a>
+            <a href="healthBenefit.html">Health Benefits </a>
+            <a href="basket.html" accesskey="B">Basket</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- search form -->
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form>
+            <input type="search" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+    <!-- home section start  -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/banner.jpeg);">
+                        <div class="content">
+                            <span>Stand Tall</span>
+                            <h3>Work Better</h3>
+                            <p>Accept the Potential of Energized Work...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/bannerbg.jpeg);">
+                        <div class="content">
+                            <span>Feel Empowered</span>
+                            <h3>Work Smarter</h3>
+                            <p>Enhance your productivity with our ergonomic designs...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/pic3.jpeg);">
+                        <div class="content">
+                            <span>Health First</span>
+                            <h3>Stand with Comfort</h3>
+                            <p>Experience the benefits of standing while working...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/pic4.jpeg);">
+                        <div class="content">
+                            <span>Innovative Solutions</span>
+                            <h3>Design Your Workspace</h3>
+                            <p>Customize your desk setup with our innovative solutions...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Add Swiper pagination and navigation buttons -->
+      
+        </div>
+    </section>
+    
+
+
+
+   
+
+    <!-- contact us starts -->
+    <section class="category">
+    <h1 class="heading" id="contactUS">Contact Us</h1>
+    <div class="send-message">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-heading">
+                <h2>Send us a Message</h2>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="contact-form">
+                <form id="contact" method="post">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <fieldset>
+                        <input name="name" type="text" class="form-control" id="name" placeholder="First Name" required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <fieldset>
+                        <input name="email" type="text" class="form-control" id="email" placeholder="Last Name" required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                      <fieldset>
+                        <input name="subject" type="text" class="form-control" id="subject" placeholder="Country" required="">
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                      </fieldset>
+                    </div>
+                    <div class="col-lg-12">
+                      <fieldset>
+                        <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- contact us end here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+   
+
+            
+
+
+
+
+
+
+
+
+
+    
+    <!-- Basket End here-->
+
+      <!-- newsletter section starts -->
+
+
+    <section class="newsletter">
+        <div class="content">
+
+            <h1 class="heading">subscribe now</h1>
+            <p>Subscribe to our week newsletter and keep yourself updated</p>
+
+            <form action="subscriber_email_handler" method="post">
+
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+    <!-- newsletter section ends -->
+
+
+ 
+
+
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+
+
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+            <a href="#home">Home</a>
+            <a href="#riskingDesks">Risking Desks</a>
+            <a href="#contact">Contact</a>
+            <a href="#healthBenefits">Health Benefits </a>
+            <a href="#basket">Basket</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my orders</a>
+                <a href="#">my wishlist</a>
+                <a href="#">ask questions</a>
+                <a href="#">terms of use</a>
+                <a href="#">privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class=" fas fa-phone"></i> +233-240-000-0000</a>
+                <a href="#"><i class=" fas fa-phone"></i> +233-240-000-0000</a>
+                <a href="#"><i class=" fas fa-envelope"></i>standing.desk@gmail.com</a>
+                <a href="#"><i class=" fas fa-map"></i> East Legon, Ghana 5405</a>
+            </div>
+
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href=""><i class="fab fa-facebook"></i>facebook</a>
+                <a href=""><i class="fab fa-twitter"></i>twitter</a>
+                <a href=""><i class="fab fa-instagram"></i>instagram</a>
+                <a href=""><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href=""><i class="fab fa-github"></i>github</a>
+            </div>
+        </div>
+
+        <div class="credit">created by <span>Elikem Solutions </span> | &copy; all rights reserved!</div>
+    </section>
+    <!-- footer section ends -->
+
+
+
+    <script>
+        var swiper = new Swiper('.home-slider', {
+          loop: true, // Enable looping
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          autoplay: {
+            delay: 3000, // Slide will automatically change every 3 seconds
+          },
+          effect: 'fade', // Optional: for a fade effect between slides
+        });
+      </script>
+
+
+<script>
+  // Function to filter products based on search input<script>
+  // Function to filter products based on search input
+  function filterProducts() {
+      const input = document.getElementById('search-box').value.toLowerCase();
+      const slides = document.querySelectorAll('.swiper-slide');
+
+      slides.forEach(slide => {
+          const productName = slide.querySelector('.content h3').textContent.toLowerCase();
+          if (productName.includes(input)) {
+              slide.style.display = ''; // Show the slide
+          } else {
+              slide.style.display = 'none'; // Hide the slide
+          }
+      });
+  }
+
+  // Ensure the event listener is added after the DOM is loaded
+  document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('search-box').addEventListener('input', filterProducts);
+  });
+</script>
+      
+
+    <!-- custom javascript link -->
+    <script src="script/script.js"></script>
+    <!-- linking swiper script via cdnjs -->
+</body>
+
+</html>
